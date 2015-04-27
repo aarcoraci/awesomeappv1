@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="red">#CC0701</color>
+    <!-- pallete -->
+    <!-- http://www.colourlovers.com/palette/1359243/Primal -->
+    <color name="textPalleteDark">#151C20</color>
+    <color name="palleteRed_primitive">#CC0701</color>
+
+    <!-- theme pallete -->
+    <color name="colorPrimary">#9C0811</color>
+    <color name="colorPrimaryDark">#590316</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="accent">#CC0701</color>
+
+    <!-- actions -->
+    <color name="blue_clickable">#1a8dff</color>
+
+    <!-- order statys -->
+    <color name="order_orange">#ffcf00</color>
+    <color name="order_green">#c5e600</color>
+    <color name="order_red">#e6002b</color>
+
+    <!-- client -->
+    <color name="client_bg_primary">#FCF9CD</color>
+    <color name="client_bg_darker">#fcf5cd</color>
+    <color name="client_primary">#BE1E2D</color>
+    <color name="client_primary_light">#d42132</color>
+
+    <!-- about -->
+    <color name="about_bg">#404040</color>
+
+    <!-- other colors -->
+    <color name="gray_1">#808080</color>
+
+    <!-- rows alternate light -->
+    <color name="row_light_1">#f6f6f6</color>
+    <color name="row_light_2">#e2e2e2</color>
+
+</resources>

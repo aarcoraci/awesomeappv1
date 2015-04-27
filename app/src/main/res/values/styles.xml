@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- general app theme -->
+    <style name="MaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <!-- action bar theme -->
+    <style name="ActionBarTheme" parent="MaterialTheme">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlHighlight">#3fff</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <!-- Support library compatibility -->
+        <item name="background">@color/colorPrimary</item>
+    </style>
+
+    <!-- action bar popup -->
+    <style name="ActionBarPopupTheme" parent="MaterialTheme">
+        <item name="android:textColorPrimary">@color/textPalleteDark</item>
+    </style>
+
+    <!-- spinner without arrow -->
+    <style name="SpinnerAsEditText" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@color/client_primary_light</item>
+    </style>
+
+</resources>
