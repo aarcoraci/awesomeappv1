@@ -49,6 +49,7 @@ public class MainActivity extends ActionBarActivity implements  ListView.OnItemC
         setContentView(R.layout.activity_main);
 
         defaultToolbar = (Toolbar) findViewById(R.id.activity_main_toolbar);
+        setSupportActionBar(defaultToolbar);
         fragmentManager = getSupportFragmentManager();
 
         // app bar
